@@ -17,8 +17,8 @@ const davidPP = "http://www.go.com/davif.png"; // ❌ the variable name is not e
 
 const city = "San Francisco"; // ❌ the variable name is not explicit and the keyword is missing (try to guess what "San Francisco" could refer to)
 
-const followers = 109; // ❌ the keyword to declare the variable is missing
-const following = 200; // ❌ the keyword to declare the variable is missing
+let followers = 109; // ❌ the keyword to declare the variable is missing
+let following = 200; // ❌ the keyword to declare the variable is missing
 
 // 🏁 Exercise 02 - David is following one more account increment the total of following account
 following++;
